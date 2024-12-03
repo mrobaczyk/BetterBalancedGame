@@ -60,7 +60,7 @@
 		</Replace>
 		<!-- = leader ability (Rough Rider)= -->
 		<Replace Tag="LOC_TRAIT_LEADER_ROOSEVELT_COROLLARY_ROUGH_RIDER_DESCRIPTION" Language="en_US">
-			<Text>Units receive +1 [ICON_STRENGTH] Combat Strength per player era reached by technologies or civics (from Classical Era up to Modern Era, capped at +5). Envoys sent to City-states you have a [ICON_TradeRoute] Trade Route to count as two [ICON_ENVOY] Envoys. Gain the Rough Rider unique unit with Ballistics technology.</Text>
+			<Text>Units receive +1 [ICON_STRENGTH] Combat Strength per player era reached by technologies or civics (from Classical Era up to Modern Era, capped at +5). Envoys sent to City-states you have a [ICON_TRADEROUTE] Trade Route to count as two [ICON_ENVOY] Envoys. Gain the Rough Rider unique unit with Ballistics technology.</Text>
 		</Replace>
 		<Row Tag="LOC_BBG_TEDDY_COMBAT_BONUS_IN_CLASSICAL" Language="en_US">
 			<Text>+1 [ICON_STRENGTH] Combat Strength for reaching Classical Era (Roosevelt Corollary).</Text>
@@ -160,7 +160,7 @@
 		</Replace>
 		<!-- = leader ability = -->
 		<Replace Tag="LOC_TRAIT_LEADER_GIFTS_FOR_TLATOANI_DESCRIPTION" Language="en_US">
-			<Text>Luxury resources in his territory provide an [ICON_Amenities] Amenity to 2 extra cities. Military units receive +1 [ICON_Strength] Combat Strength when attacking for each different Luxury resource improved in Aztec lands and retained by the Aztec.</Text>
+			<Text>Luxury resources in his territory provide an [ICON_Amenities] Amenity to 2 extra cities. Military units receive +1 [ICON_STRENGTH] Combat Strength when attacking for each different Luxury resource improved in Aztec lands and retained by the Aztec.</Text>
 		</Replace>
 		
 		
@@ -359,7 +359,7 @@
 		<!-- == CREE == -->
 		<!-- = civilization ability = -->
 		<Replace Tag="LOC_TRAIT_CIVILIZATION_CREE_TRADE_GAIN_TILES_DESCRIPTION" Language="en_US">
-			<Text>+1 [ICON_TradeRoute] Trade Route capacity with the Pottery technology. Unclaimed tiles within 3 tiles of a Cree city come under Cree control when a Trader first moves into them.</Text>
+			<Text>+1 [ICON_TRADEROUTE] Trade Route capacity with the Pottery technology. Unclaimed tiles within 3 tiles of a Cree city come under Cree control when a Trader first moves into them.</Text>
 		</Replace>
 		<!-- = unique unit = -->
 		<Replace Tag="LOC_UNIT_CREE_OKIHTCITAW_DESCRIPTION" Language="en_US">
@@ -379,7 +379,7 @@
 		<!-- == DUTCH == -->
 		<!-- = leader ability = -->
 		<Replace Tag="LOC_TRAIT_RADIO_ORANJE_DESCRIPTION" Language="en_US">
-			<Text>Your [ICON_TradeRoute] Trade Routes to your own cities provide +2 Loyalty per turn for the starting city. [ICON_TradeRoute] Trade Routes to foreign cities or from foreign cities provide +2 [ICON_CULTURE] Culture to you and +1 [ICON_CULTURE] Culture for the sender. +3 [ICON_STRENGTH] Combat Strength for all naval units when defending in Polder improvement. Dutch campuses provide +1 Great Admiral point.</Text>
+			<Text>Your [ICON_TRADEROUTE] Trade Routes to your own cities provide +2 Loyalty per turn for the starting city. [ICON_TRADEROUTE] Trade Routes to foreign cities or from foreign cities provide +2 [ICON_CULTURE] Culture to you and +1 [ICON_CULTURE] Culture for the sender. +3 [ICON_STRENGTH] Combat Strength for all naval units when defending in Polder improvement. Dutch campuses provide +1 Great Admiral point.</Text>
 		</Replace>
 		<Row Tag="LOC_BBG_POLDER_DEFENSIVE_CS" Language="en_US">
 			<Text>+3 when defending on Polder (Radio Oranje)</Text>
@@ -402,7 +402,7 @@
 		</Replace>
 		<!-- = leader ability (Egypt, Cleopatra Egyptian) = -->
 		<Replace Tag="LOC_TRAIT_LEADER_MEDITERRANEAN_EXPANSION2_DESCRIPTION" Language="en_US">
-			<Text>Your [ICON_TradeRoute] Trade Routes to other civilizations provide +6 [ICON_GOLD] Gold for Egypt. Other civilizations' [ICON_TradeRoute] Trade Routes to Egypt provide +2 [ICON_FOOD] Food for them and +2 [ICON_GOLD] Gold for Egypt. Trading with Allies earns twice as many bonus Alliance Points.</Text>
+			<Text>Your [ICON_TRADEROUTE] Trade Routes to other civilizations provide +6 [ICON_GOLD] Gold for Egypt. Other civilizations' [ICON_TRADEROUTE] Trade Routes to Egypt provide +2 [ICON_FOOD] Food for them and +2 [ICON_GOLD] Gold for Egypt. Trading with Allies earns twice as many bonus Alliance Points.</Text>
 		</Replace>
 		<!-- = leader ability (Ramses II) = -->
 		<Replace Tag="LOC_TRAIT_LEADER_RAMSES_DESCRIPTION" Language="en_US">
@@ -460,7 +460,7 @@
 		</Row>
 		<!-- = leader ability (Elizabeth) = -->
 		<Replace Tag="LOC_TRAIT_LEADER_ELIZABETH_DESCRIPTION" Language="en_US">
-			<Text>+1 [ICON_TradeRoute] Trade Route capacity with Shipbuilding technology, Exploration civic and Mercantilism civic. [ICON_TradeRoute] Trade Routes to City-states provide +3 [ICON_GOLD] Gold for every [ICON_DISTRICT] specialty district in the origin city.[NEWLINE][NEWLINE]All Naval Raider units gain +1 [ICON_MOVEMENT] Movement and +1 Sight. Naval Raiders can attack and promote in the same turn. +100% [ICON_GOLD] Gold from Plundering [ICON_TradeRoute] Trade Routes with Naval Units.</Text>
+			<Text>+1 [ICON_TRADEROUTE] Trade Route capacity with Shipbuilding technology, Exploration civic and Mercantilism civic. [ICON_TRADEROUTE] Trade Routes to City-states provide +3 [ICON_GOLD] Gold for every [ICON_DISTRICT] specialty district in the origin city.[NEWLINE][NEWLINE]All Naval Raider units gain +1 [ICON_MOVEMENT] Movement and +1 Sight. Naval Raiders can attack and promote in the same turn. +100% [ICON_GOLD] Gold from Plundering [ICON_TRADEROUTE] Trade Routes with Naval Units.</Text>
 		</Replace>
 		<Row Tag="LOC_BBG_ABILITY_ELISABETH_RAIDER_MOVE_PROMOTE_ATTACK_DESC" Language="en_US">
 			<Text>Can promote and attack in the same turn.</Text>
@@ -529,10 +529,10 @@
 		</Replace>
 		<!-- = unique improvement = -->
 		<Replace Tag="LOC_IMPROVEMENT_CHATEAU_DESCRIPTION" Language="en_US">
-			<Text>The Feudalism civic unlocks the Builder ability to construct a Chateau, unique to France.[NEWLINE][NEWLINE]+1 [ICON_CULTURE] Culture, +1 [ICON_GOLD] Gold, +1 [ICON_FOOD], +1 [ICON_HOUSING] Housing, and +1 Appeal to adjacent tiles.[NEWLINE][NEWLINE]+1 [ICON_CULTURE] Culture for each adjacent wonder, increasing to +2 [ICON_CULTURE] with the Flight technology. +2 [ICON_GOLD] Gold if built next to River. +1 [ICON_CULTURE] Culture and +1 [ICON_GOLD] Gold for each adjacent Luxury resource. Provides [ICON_TOURISM] Tourism after researching Flight.[NEWLINE][NEWLINE]Cannot be built adjacent to another Chateau.</Text>
+			<Text>The Feudalism civic unlocks the Builder ability to construct a Chateau, unique to France.[NEWLINE][NEWLINE]+1 [ICON_CULTURE] Culture, +1 [ICON_GOLD] Gold, +1 [ICON_FOOD], +1 [ICON_HOUSING] Housing, and +1 Appeal to adjacent tiles.[NEWLINE][NEWLINE]+1 [ICON_CULTURE] Culture for each adjacent wonder, increasing to +2 [ICON_CULTURE] Culture with the Flight technology. +2 [ICON_GOLD] Gold if built next to River. +1 [ICON_CULTURE] Culture and +1 [ICON_GOLD] Gold for each adjacent Luxury resource. Provides [ICON_TOURISM] Tourism after researching Flight.[NEWLINE][NEWLINE]Cannot be built adjacent to another Chateau.</Text>
 		</Replace>
 		<Replace Tag="LOC_IMPROVEMENT_CHATEAU_EXPANSION2_DESCRIPTION" Language="en_US">
-			<Text>The Feudalism civic unlocks the Builder ability to construct a Chateau, unique to France.[NEWLINE][NEWLINE]+1 [ICON_CULTURE] Culture, +1 [ICON_GOLD] Gold, +1 [ICON_FOOD], +1 [ICON_HOUSING] Housing, and +1 Appeal to adjacent tiles.[NEWLINE][NEWLINE]+1 [ICON_CULTURE] Culture for each adjacent wonder, increasing to +2 [ICON_CULTURE] with the Flight technology. +2 [ICON_GOLD] Gold if built next to River. +1 [ICON_CULTURE] Culture and +1 [ICON_GOLD] Gold for each adjacent Luxury resource. Provides [ICON_TOURISM] Tourism after researching Flight.[NEWLINE][NEWLINE]Cannot be built adjacent to another Chateau.</Text>
+			<Text>The Feudalism civic unlocks the Builder ability to construct a Chateau, unique to France.[NEWLINE][NEWLINE]+1 [ICON_CULTURE] Culture, +1 [ICON_GOLD] Gold, +1 [ICON_FOOD], +1 [ICON_HOUSING] Housing, and +1 Appeal to adjacent tiles.[NEWLINE][NEWLINE]+1 [ICON_CULTURE] Culture for each adjacent wonder, increasing to +2 [ICON_CULTURE] Culture with the Flight technology. +2 [ICON_GOLD] Gold if built next to River. +1 [ICON_CULTURE] Culture and +1 [ICON_GOLD] Gold for each adjacent Luxury resource. Provides [ICON_TOURISM] Tourism after researching Flight.[NEWLINE][NEWLINE]Cannot be built adjacent to another Chateau.</Text>
 		</Replace>
 		<!-- = unique project (Magnificence) = -->
 		<Replace Tag="LOC_PROJECT_ECOURT_FESTIVAL_DESCRIPTION" Language="en_US">
@@ -675,7 +675,7 @@
 		</Replace>
 		<!-- = leader ability = -->
 		<Replace Tag="LOC_TRAIT_LEADER_PACHACUTI_QHAPAQ_NAN_DESCRIPTION" Language="en_US">
-			<Text>Domestic [ICON_TradeRoute] Trade Routes gain +1 [ICON_FOOD] Food for every Mountain tile in the origin city. International [ICON_TradeRoute] Trade Routes gain +1 [ICON_GOLD] Gold for every Mountain tile in the origin city. -50% of the normal [ICON_GOLD] Gold cost to purchase Mountain tiles. Gain the Qhapaq Ã‘an improvement when Foreign Trade civic is discovered.</Text>
+			<Text>Domestic [ICON_TRADEROUTE] Trade Routes gain +1 [ICON_FOOD] Food for every Mountain tile in the origin city. International [ICON_TRADEROUTE] Trade Routes gain +1 [ICON_GOLD] Gold for every Mountain tile in the origin city. -50% of the normal [ICON_GOLD] Gold cost to purchase Mountain tiles. Gain the Qhapaq Ã‘an improvement when Foreign Trade civic is discovered.</Text>
 		</Replace>
 		
 		<!-- == INDIA == -->
@@ -756,10 +756,10 @@
 		
 		<!-- = leader ability (Tokugawa) = -->
 		<Replace Tag="LOC_TRAIT_LEADER_TOKUGAWA_DESCRIPTION" Language="en_US">
-			<Text>International [ICON_TradeRoute] Trade Routes receive -25% Yield and [ICON_TOURISM] Tourism, but Domestic [ICON_TradeRoute] Trade Routes provide +1 [ICON_CULTURE] Culture, +1 [ICON_SCIENCE] Science, and +1 [ICON_GOLD] Gold for every Specialty District at the Destination. Cities within 6 tiles of Japan's capital receive +4 [ICON_AMENITIES] Amenities and after researching Flight receive +1 [ICON_TOURISM] Tourism for every District.</Text>
+			<Text>International [ICON_TRADEROUTE] Trade Routes receive -25% Yield and [ICON_TOURISM] Tourism, but Domestic [ICON_TRADEROUTE] Trade Routes provide +1 [ICON_CULTURE] Culture, +1 [ICON_SCIENCE] Science, and +1 [ICON_GOLD] Gold for every Specialty District at the Destination. Cities within 6 tiles of Japan's capital receive +4 [ICON_AMENITIES] Amenities and after researching Flight receive +1 [ICON_TOURISM] Tourism for every District.</Text>
 		</Replace>
 		<Replace Tag="LOC_TRAIT_LEADER_TOKUGAWA_XP_DESCRIPTION" Language="en_US">
-			<Text>International [ICON_TradeRoute] Trade Routes receive -25% Yield and [ICON_TOURISM] Tourism, but Domestic [ICON_TradeRoute] Trade Routes provide +1 [ICON_CULTURE] Culture, +1 [ICON_SCIENCE] Science, and +1 [ICON_GOLD] Gold for every Specialty District at the Destination. Cities within 6 tiles of Japan's capital receive 100% Loyalty and after researching Flight receive +1 [ICON_TOURISM] Tourism for every District.</Text>
+			<Text>International [ICON_TRADEROUTE] Trade Routes receive -25% Yield and [ICON_TOURISM] Tourism, but Domestic [ICON_TRADEROUTE] Trade Routes provide +1 [ICON_CULTURE] Culture, +1 [ICON_SCIENCE] Science, and +1 [ICON_GOLD] Gold for every Specialty District at the Destination. Cities within 6 tiles of Japan's capital receive 100% Loyalty and after researching Flight receive +1 [ICON_TOURISM] Tourism for every District.</Text>
 		</Replace>
 
 		<!-- == KHMER == -->
@@ -992,7 +992,7 @@
 		<!-- == MONGOLIA == -->
 		<!-- = civilization ability = -->
 		<Replace Tag="LOC_TRAIT_CIVILIZATION_MONGOLIAN_ORTOO_DESCRIPTION" Language="en_US">
-			<Text>All Mongolian units double the usual [ICON_STRENGTH] Combat Bonus for having a higher level of [ICON_VisLimited] Diplomatic Visibility than their opponent. Starting a [ICON_TradeRoute] Trade Route immediately creates a [ICON_TradingPost] Trading Post in the destination city.</Text>
+			<Text>All Mongolian units double the usual [ICON_STRENGTH] Combat Bonus for having a higher level of [ICON_VisLimited] Diplomatic Visibility than their opponent. Starting a [ICON_TRADEROUTE] Trade Route immediately creates a [ICON_TradingPost] Trading Post in the destination city.</Text>
 		</Replace>
 
 		<!-- == NORWAY == -->
@@ -1026,7 +1026,7 @@
 		</Replace>
 		<!-- = unique building = -->
 		<Replace Tag="LOC_BUILDING_STAVE_CHURCH_DESCRIPTION" Language="en_US">
-			<Text>A building unique to Norway that replaces the Temple. +1 [ICON_FAITH] to each resource tile in this city and +1 [ICON_PRODUCTION] Production for each coastal resource tile in this city. Required to purchase Apostles and Inquisitors with [ICON_FAITH] Faith.</Text>
+			<Text>A building unique to Norway that replaces the Temple. +1 [ICON_FAITH] Faith to each resource tile in this city and +1 [ICON_PRODUCTION] Production for each coastal resource tile in this city. Required to purchase Apostles and Inquisitors with [ICON_FAITH] Faith.</Text>
 		</Replace>
 
 		<!-- == NUBIA == -->
@@ -1082,7 +1082,7 @@
 		<!-- == PERSIA == -->
 		<!-- = civilization ability = -->
 		<Replace Tag="LOC_TRAIT_CIVILIZATION_SATRAPIES_DESCRIPTION" Language="en_US">
-			<Text>+1 [ICON_TradeRoute] Trade Route capacity with Political Philosophy civic. Receive +2 [ICON_GOLD] Gold for domestic Trade Routes, additional +2 [ICON_GOLD] Gold from the Banking and Economics technologies. Roads built in your territory are one level more advanced than usual.</Text>
+			<Text>+1 [ICON_TRADEROUTE] Trade Route capacity with Political Philosophy civic. Receive +2 [ICON_GOLD] Gold for domestic Trade Routes, additional +2 [ICON_GOLD] Gold from the Banking and Economics technologies. Roads built in your territory are one level more advanced than usual.</Text>
 		</Replace>
 		<!-- = leader ability (Cyrus) = -->
 		<Replace Tag="LOC_TRAIT_LEADER_FALL_BABYLON_DESCRIPTION" Language="en_US">
@@ -1109,7 +1109,7 @@
 		<!-- == PHOENICIA == -->
 		<!-- = leader ability = -->
 		<Replace Tag="LOC_TRAIT_LEADER_FOUNDER_CARTHAGE_DESCRIPTION" Language="en_US">
-			<Text>Can move their original [ICON_Capital] Capital to any city with a Cothon they founded by completing a unique project in that city. +1 [ICON_TradeRoute] Trade Route capacity for each Government Plaza building. +50% [ICON_PRODUCTION] Production toward [ICON_DISTRICT] districts in the city with the Government Plaza.</Text>
+			<Text>Can move their original [ICON_Capital] Capital to any city with a Cothon they founded by completing a unique project in that city. +1 [ICON_TRADEROUTE] Trade Route capacity for each Government Plaza building. +50% [ICON_PRODUCTION] Production toward [ICON_DISTRICT] districts in the city with the Government Plaza.</Text>
 		</Replace>
 		<!-- = unique district = -->
 		<Replace Tag="LOC_DISTRICT_COTHON_DESCRIPTION" Language="en_US">
@@ -1129,11 +1129,11 @@
 		<!-- == PORTUGAL == -->
 		<!-- = civilization ability = -->
 		<Replace Tag="LOC_TRAIT_CIVILIZATION_PORTUGAL_DESCRIPTION" Language="en_US">
-			<Text>International [ICON_TradeRoute] Trade Routes must originate from a coastal city and can only reach cities on the coast or with a Harbor, but receive +50% [ICON_GOLD] Gold after researching Cartography, +50% [ICON_SCIENCE] after researching Education, and +50% [ICON_CULTURE] after researching Medieval Faires. Trader units have +50% range over water, and can embark as soon as they are unlocked.</Text>
+			<Text>International [ICON_TRADEROUTE] Trade Routes must originate from a coastal city and can only reach cities on the coast or with a Harbor, but receive +50% [ICON_GOLD] Gold after researching Cartography, +50% [ICON_SCIENCE] Science after researching Education, and +50% [ICON_CULTURE] Culture after researching Medieval Faires. Trader units have +50% range over water, and can embark as soon as they are unlocked.</Text>
 		</Replace>
 		<!-- = leader ability = -->
 		<Replace Tag="LOC_TRAIT_LEADER_JOAO_III_DESCRIPTION" Language="en_US">
-			<Text>All units receive +1 Sight. +1 [ICON_TradeRoute] Trade Route capacity when entering a new era (ancient era included). Open Borders with all City-States.</Text>
+			<Text>All units receive +1 Sight. +1 [ICON_TRADEROUTE] Trade Route capacity when entering a new era (ancient era included). Open Borders with all City-States.</Text>
 		</Replace>
 		<!-- = unique unit = -->
 		<Replace Tag="LOC_UNIT_PORTUGUESE_NAU_DESCRIPTION" Language="en_US">
@@ -1208,11 +1208,11 @@
 		</Replace>
 		<!-- = leader ability = -->
 		<Replace Tag="LOC_TRAIT_LEADER_KILLER_OF_CYRUS_DESCRIPTION" Language="en_US">
-			<Text>All units receive +3 [ICON_Strength] Combat Strength when attacking wounded units. When they eliminate a unit, they heal up to 30 hit points.</Text>
+			<Text>All units receive +3 [ICON_STRENGTH] Combat Strength when attacking wounded units. When they eliminate a unit, they heal up to 30 hit points.</Text>
 		</Replace>
 		<!-- = leader bonus after stirrups = -->		
 		<Row Tag="LOC_BBG_TOMYRIS_BONUS_VS_WOUNDED_UNITS_STIRRUPS_MODIFIER_DESC" Language="en_US">
-			<Text>All units receive +3 [ICON_Strength] Combat Strength when attacking wounded units. When they eliminate a unit, they heal up to 30 hit points.</Text>
+			<Text>All units receive +3 [ICON_STRENGTH] Combat Strength when attacking wounded units. When they eliminate a unit, they heal up to 30 hit points.</Text>
 		</Row>
 		<!-- = unique unit = -->
 		<Replace Tag="LOC_UNIT_SCYTHIAN_HORSE_ARCHER_DESCRIPTION" Language="en_US">
@@ -1226,10 +1226,10 @@
 		<!-- == SPAIN == -->
 		<!-- = civilization ability = -->
 		<Replace Tag="LOC_TRAIT_CIVILIZATION_TREASURE_FLEET_DESCRIPTION" Language="en_US">
-			<Text>May form [ICON_Corps] Fleets and [ICON_Army] Armadas earlier than usual (Mercenaries and Mercantilism). Once required Civics are unlocked, Shipyard building allows training [ICON_Corps] Fleets and [ICON_Army] Armadas directly and their costs reduced by 25%.[NEWLINE][NEWLINE][ICON_TradeRoute] Trade Routes receive +3 [ICON_GOLD] Gold, +2 [ICON_FAITH] Faith, and +1 [ICON_PRODUCTION] Production. International [ICON_TradeRoute] Trade Routes between multiple continents receive double these numbers. Cities at least 8 tiles away from [ICON_CAPITAL] Capital receive +25% [ICON_PRODUCTION] Production towards [ICON_DISTRICT] districts.</Text>
+			<Text>May form [ICON_Corps] Fleets and [ICON_Army] Armadas earlier than usual (Mercenaries and Mercantilism). Once required Civics are unlocked, Shipyard building allows training [ICON_Corps] Fleets and [ICON_Army] Armadas directly and their costs reduced by 25%.[NEWLINE][NEWLINE][ICON_TRADEROUTE] Trade Routes receive +3 [ICON_GOLD] Gold, +2 [ICON_FAITH] Faith, and +1 [ICON_PRODUCTION] Production. International [ICON_TRADEROUTE] Trade Routes between multiple continents receive double these numbers. Cities at least 8 tiles away from [ICON_CAPITAL] Capital receive +25% [ICON_PRODUCTION] Production towards [ICON_DISTRICT] districts.</Text>
 		</Replace>
 		<Replace Tag="LOC_TRAIT_CIVILIZATION_TREASURE_FLEET_EXPANSION2_DESCRIPTION" Language="en_US">
-			<Text>May form [ICON_Corps] Fleets and [ICON_Army] Armadas earlier than usual (Mercenaries and Mercantilism). Once required Civics are unlocked, Shipyard building allows training [ICON_Corps] Fleets and [ICON_Army] Armadas directly and their costs reduced by 25%.[NEWLINE][NEWLINE][ICON_TradeRoute] Trade Routes receive +3 [ICON_GOLD] Gold, +2 [ICON_FAITH] Faith, and +1 [ICON_PRODUCTION] Production. International [ICON_TradeRoute] Trade Routes between multiple continents receive double these numbers. Cities at least 8 tiles away from [ICON_CAPITAL] Capital receive +25% [ICON_PRODUCTION] Production towards [ICON_DISTRICT] districts.</Text>
+			<Text>May form [ICON_Corps] Fleets and [ICON_Army] Armadas earlier than usual (Mercenaries and Mercantilism). Once required Civics are unlocked, Shipyard building allows training [ICON_Corps] Fleets and [ICON_Army] Armadas directly and their costs reduced by 25%.[NEWLINE][NEWLINE][ICON_TRADEROUTE] Trade Routes receive +3 [ICON_GOLD] Gold, +2 [ICON_FAITH] Faith, and +1 [ICON_PRODUCTION] Production. International [ICON_TRADEROUTE] Trade Routes between multiple continents receive double these numbers. Cities at least 8 tiles away from [ICON_CAPITAL] Capital receive +25% [ICON_PRODUCTION] Production towards [ICON_DISTRICT] districts.</Text>
 		</Replace>
 		<!-- = leader ability = -->
 		<Replace Tag="LOC_TRAIT_LEADER_EL_ESCORIAL_DESCRIPTION" Language="en_US">
@@ -1256,7 +1256,7 @@
 			<Text>The Theology civic unlocks the Builder ability to construct a Mission, unique to Spain.[NEWLINE][NEWLINE]+2 [ICON_FAITH] Faith.[NEWLINE][NEWLINE]+1 [ICON_HOUSING] Housing if built 7 tiles or less from current [ICON_CAPITAL] Capital. +1 [ICON_FAITH] Faith if built 8 tiles or more from current [ICON_CAPITAL] Capital. +2 [ICON_SCIENCE] Science if built next to a Campus district. +2 [ICON_SCIENCE] Science with the Enlightenment civic.[NEWLINE][NEWLINE]Cannot be built next to another Mission.</Text>
 		</Replace>
 		<Replace Tag="LOC_IMPROVEMENT_MISSION_EXPANSION2_DESCRIPTION" Language="en_US">
-			<Text>The Theology civic unlocks the Builder ability to construct a Mission, unique to Spain.[NEWLINE][NEWLINE]+2 [ICON_FAITH] Faith.[NEWLINE][NEWLINE]+1 [ICON_HOUSING] Housing if built 7 tiles or less from current [ICON_CAPITAL] Capital. +1 [ICON_FAITH] and +1 [ICON_PRODUCTION] Production if built 8 tiles or more from current [ICON_CAPITAL] Capital. +1 [ICON_SCIENCE] Science for every adjacent Campus and Holy Site district. +2 [ICON_SCIENCE] Science with the Enlightenment civic.[NEWLINE][NEWLINE]Cannot be built next to another Mission.</Text>
+			<Text>The Theology civic unlocks the Builder ability to construct a Mission, unique to Spain.[NEWLINE][NEWLINE]+2 [ICON_FAITH] Faith.[NEWLINE][NEWLINE]+1 [ICON_HOUSING] Housing if built 7 tiles or less from current [ICON_CAPITAL] Capital. +1 [ICON_FAITH] Faith and +1 [ICON_PRODUCTION] Production if built 8 tiles or more from current [ICON_CAPITAL] Capital. +1 [ICON_SCIENCE] Science for every adjacent Campus and Holy Site district. +2 [ICON_SCIENCE] Science with the Enlightenment civic.[NEWLINE][NEWLINE]Cannot be built next to another Mission.</Text>
 		</Replace>
 
 		<!-- == SUMERIA == -->
@@ -1361,7 +1361,7 @@
 		<!-- === UNITS === -->
 		<!-- == Civilian Units == -->
 		<Replace Tag="LOC_UNIT_TRADER_DESCRIPTION" Language="en_US"> <!-- embarkation tip -->
-			<Text>May make and maintain a single [ICON_TradeRoute] Trade Route. Automatically creates Roads as it travels. Can embark once either Celestial Navigation or Shipbuilding are researched.</Text>
+			<Text>May make and maintain a single [ICON_TRADEROUTE] Trade Route. Automatically creates Roads as it travels. Can embark once either Celestial Navigation or Shipbuilding are researched.</Text>
 		</Replace>
 		<!-- == Melee Units == -->
 		<Replace Tag="LOC_UNIT_WARRIOR_MONK_DESCRIPTION" Language="en_US">
@@ -1511,7 +1511,7 @@
 			<Text>When fighting against defensible districts gain +30 [ICON_RANGED] Ranged and +30 [ICON_STRENGTH] Melee Strength and Ranged attacks are 100% effective.</Text>
 		</Replace>
 		<Replace Tag="LOC_PROMOTION_GDR_AA_DEFENSE_DESCRIPTION" Language="en_US">
-			<Text>[ICON_AntiAir_Large] Anti-Air Defense Strength increased to 140.</Text>
+			<Text>[ICON_ANTIAIR_LARGE] Anti-Air Defense Strength increased to 140.</Text>
 		</Replace>
 
 
@@ -1519,7 +1519,7 @@
 		<!-- === GOVERNORS === -->
 		<!-- == Amani == -->
 		<Replace Tag="LOC_GOVERNOR_PROMOTION_AMBASSADOR_MESSENGER_DESCRIPTION" Language="en_US">
-			<Text>Can be assigned to a City-state, where she acts as 2 [ICON_ENVOY] Envoys. When established in a City-state, your cities that have a [ICON_TradeRoute] Trade Route to this city gain +2 [ICON_FOOD] Food and +2 [ICON_PRODUCTION] Production. Establishes in 5 turns.</Text>
+			<Text>Can be assigned to a City-state, where she acts as 2 [ICON_ENVOY] Envoys. When established in a City-state, your cities that have a [ICON_TRADEROUTE] Trade Route to this city gain +2 [ICON_FOOD] Food and +2 [ICON_PRODUCTION] Production. Establishes in 5 turns.</Text>
 		</Replace>
 		<Row Tag="LOC_GOVERNOR_PROMOTION_AMBASSADOR_NEGOTIATOR_NAME" Language="en_US">
 			<Text>Negotiator</Text>
@@ -1598,7 +1598,7 @@
 			<Text>+40% yields from plot harvests and feature removals in this city. Establishes in 4 turns.</Text>
 		</Replace>
 		<Replace Tag="LOC_GOVERNOR_PROMOTION_RESOURCE_MANAGER_EXPEDITION_DESCRIPTION" Language="en_US">
-			<Text>+20% [ICON_FOOD] Growth in the city. Your [ICON_TradeRoute] Trade Routes ending here provide +1 [ICON_FOOD] Food and +1 [ICON_PRODUCTION] Production to their starting city.</Text>
+			<Text>+20% [ICON_FOOD] Growth in the city. Your [ICON_TRADEROUTE] Trade Routes ending here provide +1 [ICON_FOOD] Food and +1 [ICON_PRODUCTION] Production to their starting city.</Text>
 		</Replace>
 		<Replace Tag="LOC_GOVERNOR_PROMOTION_RESOURCE_MANAGER_SURPLUS_LOGISTICS_DESCRIPTION" Language="en_US">
 			<Text>+20% [ICON_PRODUCTION] Production toward units, buildings, and districts.</Text>
@@ -1624,7 +1624,7 @@
 			<Text>+1 [ICON_CULTURE] Culture per turn for each [ICON_CITIZEN] Citizen in the city.</Text>
 		</Replace>
 		<Replace Tag="LOC_GOVERNOR_PROMOTION_CARDINAL_DIVINE_ARCHITECT_DESCRIPTION" Language="en_US">
-			<Text>Domestic [ICON_TradeRoute] Trade Routes to Moksha's city provide +2 [ICON_CULTURE] Culture and +1 [ICON_FOOD] Food. Allows this city to purchase [ICON_DISTRICT] districts with [ICON_FAITH] Faith at a 10% discount. </Text>
+			<Text>Domestic [ICON_TRADEROUTE] Trade Routes to Moksha's city provide +2 [ICON_CULTURE] Culture and +1 [ICON_FOOD] Food. Allows this city to purchase [ICON_DISTRICT] districts with [ICON_FAITH] Faith at a 10% discount. </Text>
 		</Replace>
 		<Replace Tag="LOC_GOVERNOR_PROMOTION_CARDINAL_CITADEL_OF_GOD_DESCRIPTION" Language="en_US">
 			<Text>+2 [ICON_GreatProphet] Great Prophet points and +2 [ICON_FAITH] Faith per turn for cities with a Holy Site within 6 tiles.</Text>
@@ -1644,7 +1644,7 @@
 			<Text>Shared Knowledge</Text>
 		</Row>
 		<Row Tag="LOC_GOVERNOR_PROMOTION_EDUCATOR_KNOWLEDGE_DESCRIPTION" Language="en_US">
-			<Text>Domestic [ICON_TradeRoute] Trade Routes to Pingala's city provide +1 [ICON_FOOD] Food and +3 [ICON_SCIENCE] Science.</Text>
+			<Text>Domestic [ICON_TRADEROUTE] Trade Routes to Pingala's city provide +1 [ICON_FOOD] Food and +3 [ICON_SCIENCE] Science.</Text>
 		</Row>
 		<Row Tag="LOC_GOVERNOR_PROMOTION_EDUCATOR_EUREKA_NAME" Language="en_US">
 			<Text>Eureka</Text>
@@ -1718,7 +1718,7 @@
 			<Text>+1 [ICON_GreatPerson] Great Person point for Holy Site ([ICON_GreatProphet] Great Prophet), Campus ([ICON_GreatScientist] Great Scientist) and Industrial Zone ([ICON_GreatEngineer] Great Engineer) districts, Amphitheater ([ICON_GreatWriter] Great Writer) building.</Text>
 		</Replace>
 		<Replace Tag="LOC_BELIEF_EARTH_GODDESS_EXPANSION2_DESCRIPTION" Language="en_US">
-			<Text>+1 Faith [ICON_FAITH] from tiles with Charming or better Appeal.</Text>
+			<Text>+1 [ICON_FAITH] Faith from tiles with Charming or better Appeal.</Text>
 		</Replace>		
 		<Replace Tag="LOC_BELIEF_FERTILITY_RITES_DESCRIPTION" Language="en_US">
 			<Text>+1 [ICON_FOOD] Food for [ICON_RESOURCE_CATTLE] Cattle, [ICON_RESOURCE_RICE] Rice, and [ICON_RESOURCE_WHEAT] Wheat tiles.</Text>
@@ -1815,7 +1815,7 @@
 			<Text>Holy Site Districts, Shrines, and Temples each provide +1 [ICON_HOUSING] Housing.</Text>
 		</Replace>
 		<Replace Tag="LOC_BELIEF_RELIGIOUS_COMMUNITY_EXPANSION2_DESCRIPTION" Language="en_US">
-			<Text>International [ICON_TradeRoute] Trade Routes provide +2 [ICON_GOLD] Gold if the origin city has a Holy Site and an additional +2 [ICON_GOLD] Gold for every building in the Holy Site district.</Text>
+			<Text>International [ICON_TRADEROUTE] Trade Routes provide +2 [ICON_GOLD] Gold if the origin city has a Holy Site and an additional +2 [ICON_GOLD] Gold for every building in the Holy Site district.</Text>
 		</Replace>
 		<!-- == Founder Beliefs == -->
 		<Replace Tag="LOC_BELIEF_PILGRIMAGE_EXPANSION2_DESCRIPTION" Language="en_US">
@@ -1902,7 +1902,7 @@
 			<Text>Unlocks the Builder ability to construct Plantations.[NEWLINE][NEWLINE]+2 [ICON_GOLD] Gold. +1 [ICON_PRODUCTION] Production if built on flat tile.[NEWLINE]Can only be built on valid resources.[NEWLINE][NEWLINE]If built on Luxury resources, the city will gain use of that resource.</Text>
 		</Replace>
 		<Replace Tag="LOC_IMPROVEMENT_GEOTHERMAL_PLANT_DESCRIPTION" Language="en_US">
-			<Text>Unlocks the Builder ability to construct a Geothermal Plant.[NEWLINE][NEWLINE]+2 [ICON_PRODUCTION] Production, +1 [ICON_SCIENCE] Science, +3 [ICON_Power] Power per turn.[NEWLINE]Additional +1 [ICON_PRODUCTION] Production, +1 [ICON_SCIENCE] Science and +3 [ICON_Power] Power per turn one Synthetic materials researched.[NEWLINE]Must be built on a Geothermal Fissure.</Text>
+			<Text>Unlocks the Builder ability to construct a Geothermal Plant.[NEWLINE][NEWLINE]+2 [ICON_PRODUCTION] Production, +1 [ICON_SCIENCE] Science, +3 [ICON_POWER] Power per turn.[NEWLINE]Additional +1 [ICON_PRODUCTION] Production, +1 [ICON_SCIENCE] Science and +3 [ICON_POWER] Power per turn one Synthetic materials researched.[NEWLINE]Must be built on a Geothermal Fissure.</Text>
 		</Replace>
 		<Replace Tag="LOC_IMPROVEMENT_FISHING_BOATS_DESCRIPTION" Language="en_US">
 			<Text>Unlocks the Builder ability to construct Fishing Boats.[NEWLINE][NEWLINE]+1 [ICON_FOOD] Food and +1 [ICON_PRODUCTION] Production. Can only be built on valid resources.[NEWLINE][NEWLINE]If built on Luxury resources, the city will gain use of that resource.</Text>
@@ -1911,7 +1911,7 @@
 			<Text>Unlocks the Builder ability to construct Fisheries.[NEWLINE][NEWLINE]+1 [ICON_FOOD] Food, +1 additional [ICON_FOOD] Food if adjacent to a sea resource. +1 [ICON_HOUSING] Housing. Must be built on a coastal plot.</Text>
 		</Replace>
 		<Replace Tag="LOC_ROUTE_RAILROAD_DESCRIPTION" Language="en_US">
-			<Text>Can only be constructed by Military Engineers. Does not cost a charge, but does cost 1 [ICON_RESOURCE_IRON] Iron.[NEWLINE][NEWLINE]Greatly improves [ICON_MOVEMENT] Movement speed of any unit moving from one Railroad tile to another. [ICON_TradeRoute] Trade Routes traveling over Railroads can multiply the [ICON_GOLD] Gold they get from districts at their destination.</Text>
+			<Text>Can only be constructed by Military Engineers. Does not cost a charge, but does cost 1 [ICON_RESOURCE_IRON] Iron.[NEWLINE][NEWLINE]Greatly improves [ICON_MOVEMENT] Movement speed of any unit moving from one Railroad tile to another. [ICON_TRADEROUTE] Trade Routes traveling over Railroads can multiply the [ICON_GOLD] Gold they get from districts at their destination.</Text>
 		</Replace>
 		<Replace Tag="LOC_IMPROVEMENT_BEACH_RESORT_DESCRIPTION" Language="en_US">
 			<Text>Unlocks the Builder ability to construct Seaside Resorts.[NEWLINE][NEWLINE]Provides [ICON_TOURISM] Tourism equal to 150% of the tile's Appeal. Can only be built on Coastal Desert, Coastal Plains, or Coastal Grassland tiles. Minimum Appeal of Charming.</Text>
@@ -1928,7 +1928,7 @@
 		<!-- === DISTRICTS === -->
 		<!-- WIP BBG v5.2 Beta build 1, NOT IMPLEMENTED
 		<Replace Tag="LOC_DISTRICT_CANAL_DESCRIPTION" Language="en_US">
-			<Text>A district to connect two bodies of water or a body of water to a City Center. [ICON_TradeRoute] Trade Routes traveling through it can multiply the [ICON_GOLD] Gold they get from districts at their destination. Military Engineers can spend a [ICON_CHARGES] charge to complete 20% of a Canal's cost.[NEWLINE][NEWLINE]Must be built on flat tile that have a full land tile on each side of the waterway they create. Can be built on hill tile with the Steam Power technology. Canals may either go straight through the hex or bend by 60 degrees. Three-way Canal junctures are not allowed.</Text>
+			<Text>A district to connect two bodies of water or a body of water to a City Center. [ICON_TRADEROUTE] Trade Routes traveling through it can multiply the [ICON_GOLD] Gold they get from districts at their destination. Military Engineers can spend a [ICON_CHARGES] charge to complete 20% of a Canal's cost.[NEWLINE][NEWLINE]Must be built on flat tile that have a full land tile on each side of the waterway they create. Can be built on hill tile with the Steam Power technology. Canals may either go straight through the hex or bend by 60 degrees. Three-way Canal junctures are not allowed.</Text>
 		</Replace>
 		<Replace Tag="LOC_TECH_STEAM_POWER_DESCRIPTION" Language="en_US">
 			<Text>+2 [ICON_MOVEMENT] Movement for embarked units. Can build Canal district on hill tile.</Text>
@@ -2004,7 +2004,7 @@
 		</Replace>
 		<!-- == Harbor Buildings == -->
 		<Replace Tag="LOC_BUILDING_LIGHTHOUSE_EXPANSION2_DESCRIPTION" Language="en_US">
-			<Text>+25% combat experience for all naval units trained in this city. +1 [ICON_FOOD] Food on all Coast and Lake tiles for this city. +2 [ICON_HOUSING] Housing if this city is adjacent to coast. +1 [ICON_TradeRoute] Trade Route capacity, if this city does not yet have a Market building.</Text>
+			<Text>+25% combat experience for all naval units trained in this city. +1 [ICON_FOOD] Food on all Coast and Lake tiles for this city. +2 [ICON_HOUSING] Housing if this city is adjacent to coast. +1 [ICON_TRADEROUTE] Trade Route capacity, if this city does not yet have a Market building.</Text>
 		</Replace>
 		<Replace Tag="LOC_BUILDING_SHIPYARD_EXPANSION2_DESCRIPTION" Language="en_US">
 			<Text>+25% combat experience for all naval units trained in this city. Bonus [ICON_PRODUCTION] Production equal to the adjacency bonus of the Harbor district. +1 [ICON_PRODUCTION] Production on all unimproved Coast and Lake tiles for this city. +1 [ICON_RESOURCE_COAL] Coal per turn once discovered.</Text>
@@ -2057,7 +2057,7 @@
 			<Text>+1 [ICON_CULTURE] Culture, +2 Loyalty, +2 [ICON_AMENITIES] Amenities to each your City Center within 6 tiles.[NEWLINE][NEWLINE]Must be built on flat land adjacent to an Entertainment Complex with an Arena.</Text>
 		</Replace>
 		<Replace Tag="LOC_BUILDING_COLOSSUS_DESCRIPTION" Language="en_US">
-			<Text>+1 [ICON_TradeRoute] Trade Route capacity. Grants a Trader unit. Foreign Trade Routes to this city provide +2 [ICON_GOLD] Gold to both cities. Must be built on the Coast, adjacent to land and a Harbor district.</Text>
+			<Text>+1 [ICON_TRADEROUTE] Trade Route capacity. Grants a Trader unit. Foreign Trade Routes to this city provide +2 [ICON_GOLD] Gold to both cities. Must be built on the Coast, adjacent to land and a Harbor district.</Text>
 		</Replace>
 		
 		<Replace Tag="LOC_BUILDING_CRISTO_REDENTOR_DESCRIPTION" Language="en_US">
@@ -2067,7 +2067,7 @@
 			<Text>+1 [ICON_SCIENCE] Science and +1 [ICON_PRODUCTION] Production to all Marsh tiles in your empire. +1 [ICON_PRODUCTION] Production on all Floodplains in this city. +1 [ICON_SCIENCE] Science on Floodplains improved with a Farm for this city.[NEWLINE][NEWLINE]Must be built on Floodplains or Marsh.</Text>
 		</Replace>
 		<Replace Tag="LOC_BUILDING_GREAT_ZIMBABWE_DESCRIPTION" Language="en_US">
-			<Text>+2 [ICON_TradeRoute] Trade Route capacity and +2 [ICON_TradeRoute] Traders. Your [ICON_TradeRoute] Trade Routes from this city get +2 [ICON_GOLD] Gold for every Bonus resource within 3 tiles of the city and in this city's territory.[NEWLINE][NEWLINE]Must be built adjacent to a Commercial Hub district with a Market and adjacent to [ICON_RESOURCE_CATTLE] Cattle.</Text>
+			<Text>+2 [ICON_TRADEROUTE] Trade Route capacity and +2 [ICON_TRADEROUTE] Traders. Your [ICON_TRADEROUTE] Trade Routes from this city get +2 [ICON_GOLD] Gold for every Bonus resource within 3 tiles of the city and in this city's territory.[NEWLINE][NEWLINE]Must be built adjacent to a Commercial Hub district with a Market and adjacent to [ICON_RESOURCE_CATTLE] Cattle.</Text>
 		</Replace>
 		<Replace Tag="LOC_BUILDING_HAGIA_SOPHIA_DESCRIPTION" Language="en_US">
 			<Text>+2 [ICON_MOVEMENT] Movement for Missionaries, Apostles and Gurus. Missionaries and Apostles can spread Religion 1 extra time. Missionaries are 25% cheaper to purchase.[NEWLINE][NEWLINE]Must be built on flat land adjacent to a Holy Site district, and you must have founded a Religion.</Text>
@@ -2118,10 +2118,10 @@
 			<Text>All current units gain a [ICON_PROMOTION] promotion level. All Archaeologists from the owner may enter foreign lands without Open Borders.[NEWLINE][NEWLINE]Must be built on flat Grassland or Plains adjacent to an Encampment district with a Barracks or Stable.</Text>
 		</Replace>
 		<Replace Tag="LOC_BUILDING_TORRE_DE_BELEM_DESCRIPTION" Language="en_US">
-			<Text>International [ICON_TradeRoute] Trade Routes receive +2 [ICON_GOLD] Gold for every Luxury Resource at the destination. When the Torre de Belém is constructed, all cities not on your home continent receive the lowest [ICON_PRODUCTION] Production cost City Center building they can currently construct.[NEWLINE][NEWLINE]Must be built on a Coast tile that is adjacent to a Harbor district.</Text>
+			<Text>International [ICON_TRADEROUTE] Trade Routes receive +2 [ICON_GOLD] Gold for every Luxury Resource at the destination. When the Torre de Belém is constructed, all cities not on your home continent receive the lowest [ICON_PRODUCTION] Production cost City Center building they can currently construct.[NEWLINE][NEWLINE]Must be built on a Coast tile that is adjacent to a Harbor district.</Text>
 		</Replace>
 		<Replace Tag="LOC_BUILDING_UNIVERSITY_SANKORE_DESCRIPTION" Language="en_US">
-			<Text>+1 [ICON_TradeRoute] Trade Route capacity. All your Trade Routes provide +1 [ICON_SCIENCE] Science and +2 [ICON_GOLD] Gold.[NEWLINE][NEWLINE]Must be built on the Desert or Desert Hills, and adjacent to a Campus district with a University.</Text>
+			<Text>+1 [ICON_TRADEROUTE] Trade Route capacity. All your Trade Routes provide +1 [ICON_SCIENCE] Science and +2 [ICON_GOLD] Gold.[NEWLINE][NEWLINE]Must be built on the Desert or Desert Hills, and adjacent to a Campus district with a University.</Text>
 		</Replace>
 		<Replace Tag="LOC_BUILDING_VENETIAN_ARSENAL_DESCRIPTION" Language="en_US">
 			<Text>+75% [ICON_PRODUCTION] Production towards naval units in all cities.[NEWLINE][NEWLINE]Must be built on a Coast tile that is adjacent to an Industrial Zone district.</Text>
@@ -2132,13 +2132,13 @@
 		<!-- === NATURAL WONDERS === -->
 		<!-- TIP: XP2 tag used for Natural Wonders picker (in game lobby) for specified Natural Wonders -->
 		<!-- <Row Tag="LOC_CAMPUS_MOUNTAIN_WONDER_ADJACENCY_BBG" Language="en_US">
-			<Text>+{1_num} [ICON_Science] Science per adjacent wonder that acts as a mountain.</Text>
+			<Text>+{1_num} [ICON_SCIENCE] Science per adjacent wonder that acts as a mountain.</Text>
 		</Row> -->
 		<Replace Tag="LOC_FEATURE_BERMUDA_TRIANGLE_DESCRIPTION" Language="en_US">
 			<Text>Three tile natural wonder. Units that enter it are teleported to an ocean far away, but naval units that do so earn the ability 'Mysterious Currents' (+1 [ICON_MOVEMENT] Movement).</Text>
 		</Replace>
 		<Replace Tag="LOC_FEATURE_PAITITI_DESCRIPTION" Language="en_US">
-			<Text>Three tile impassable natural wonder. It provides +1 [ICON_GOLD] Gold and +1 [ICON_CULTURE] Culture to adjacent tiles. International [ICON_TRADEROUTE] Trade Routes sent from cities that own at least one tile of Paititi generate +4 [ICON_GOLD] Gold.</Text>
+			<Text>Three tile impassable natural wonder. It provides +1 [ICON_GOLD] Gold and +1 [ICON_CULTURE] Culture to adjacent tiles. International [ICON_TRADEROUTE] Trade Routes sent from cities that own at least one tile of Païtiti generate +4 [ICON_GOLD] Gold.</Text>
 		</Replace>
 		<Replace Tag="LOC_FEATURE_GIANTS_CAUSEWAY_DESCRIPTION" Language="en_US">
 			<Text>Two tile impassable natural wonder. It provides +1 [ICON_CULTURE] Culture to adjacent tiles. Land combat units that enter adjacent tiles receive the ability 'Spear of Fionn' (+3 [ICON_STRENGTH] Combat Strength when attacking).</Text>
@@ -2588,7 +2588,7 @@
 			<Text>Unlocks Giant Death Robot upgrade: Reinforced Armor Plating[NEWLINE]+10 [ICON_STRENGTH] Combat Strength when defending against land and naval units.[NEWLINE]+1 [ICON_PRODUCTION] Production to the Mine improvement.</Text>
 		</Replace>
 		<Replace Tag="LOC_TECH_ADVANCED_AI_DESCRIPTION" Language="en_US">
-			<Text>Unlocks Giant Death Robot upgrade: Drone Air Defense[NEWLINE]+140 [ICON_AntiAir_Large] Anti-Air Strength.</Text>
+			<Text>Unlocks Giant Death Robot upgrade: Drone Air Defense[NEWLINE]+140 [ICON_ANTIAIR_LARGE] Anti-Air Strength.</Text>
 		</Replace>
 
 		<!-- === CULTURE TREE DESCRIPTIONS === -->
@@ -2778,7 +2778,7 @@
 		</Replace>
 		<!-- = Collectivization = -->
 		<Replace Tag="LOC_POLICY_COLLECTIVIZATION_DESCRIPTION_XP2" Language="en_US">
-			<Text>+4 [ICON_PRODUCTION] Production and +4 [ICON_FOOD] Food from domestic [ICON_TradeRoute] Trade Routes. +4 [ICON_GOLD] Gold from all Trade Routes.</Text>
+			<Text>+4 [ICON_PRODUCTION] Production and +4 [ICON_FOOD] Food from domestic [ICON_TRADEROUTE] Trade Routes. +4 [ICON_GOLD] Gold from all Trade Routes.</Text>
 		</Replace>
 		<!-- = Economic Union = -->	
 		<Replace Tag="LOC_POLICY_ECONOMIC_UNION_DESCRIPTION" Language="en_US">
@@ -2871,7 +2871,7 @@
 		</Replace>
 		<!-- = Colonial Taxes = -->
 		<Replace Tag="LOC_POLICY_COLONIAL_TAXES_DESCRIPTION" Language="en_US">
-			<Text>+15% faster growth, +10% [ICON_PRODUCTION] Production, +25% [ICON_Gold] Gold, and 3 Loyalty per turn for cities at least 8 tiles away from your [ICON_Capital] Capital.</Text>
+			<Text>+15% faster growth, +10% [ICON_PRODUCTION] Production, +25% [ICON_GOLD] Gold, and 3 Loyalty per turn for cities at least 8 tiles away from your [ICON_Capital] Capital.</Text>
 		</Replace>
 		<!-- = Communications Office = -->	
 		<Replace Tag="LOC_POLICY_COMMUNICATIONS_OFFICE_DESCRIPTION" Language="en_US">
@@ -2883,7 +2883,7 @@
 		</Replace>
 		<!-- = Gunboat Diplomacy = -->
 		<Replace Tag="LOC_POLICY_GUNBOAT_DIPLOMACY_DESCRIPTION" Language="en_US">
-			<Text>+4 [ICON_InfluencePerTurn] Influence Points per turn and +1 [ICON_Gold] Gold from each of your [ICON_Envoy] Envoys at city-states.</Text>
+			<Text>+4 [ICON_InfluencePerTurn] Influence Points per turn and +1 [ICON_GOLD] Gold from each of your [ICON_ENVOY] Envoys at city-states.</Text>
 		</Replace>
 		<!-- = Machiavellianism = -->
 		<Replace Tag="LOC_POLICY_MACHIAVELLIANISM_DESCRIPTION" Language="en_US">
@@ -2899,7 +2899,7 @@
 		</Replace>
 		<!-- = Raj = -->
 		<Replace Tag="LOC_POLICY_RAJ_DESCRIPTION_XP2" Language="en_US">
-			<Text>[ICON_TradeRoute] Trade Routes to city-states provide: +1 [ICON_FOOD] Food and [ICON_PRODUCTION] Production; +2 [ICON_Science] Science, [ICON_Culture] Culture, [ICON_Faith] Faith, and [ICON_Gold] Gold.</Text>
+			<Text>[ICON_TRADEROUTE] Trade Routes to city-states provide: +1 [ICON_FOOD] Food and [ICON_PRODUCTION] Production; +2 [ICON_SCIENCE] Science, [ICON_CULTURE] Culture, [ICON_FAITH] Faith, and [ICON_GOLD] Gold.</Text>
 		</Replace>
 		<!-- = Sovereign State added by BBG6.2 = -->
 		<Row Tag="LOC_POLICY_SOVEREIGN_STATE_NAME" Language="en_US">
@@ -2910,7 +2910,7 @@
 		</Row>
 		<!-- = Wisselbanken = -->
 		<Replace Tag="LOC_POLICY_WISSELBANKEN_DESCRIPTION" Language="en_US">
-			<Text>Your [ICON_TradeRoute] Trade Routes to an Ally's city or vassal city-state provide +2 [ICON_FOOD] Food and +2 [ICON_PRODUCTION] Production for both cities. +0.25 Alliance Points per turn for all Alliances.</Text>
+			<Text>Your [ICON_TRADEROUTE] Trade Routes to an Ally's city or vassal city-state provide +2 [ICON_FOOD] Food and +2 [ICON_PRODUCTION] Production for both cities. +0.25 Alliance Points per turn for all Alliances.</Text>
 		</Replace>
 		<!-- == Wild Policies == -->
 		<!-- = Hallyu = -->
@@ -2948,7 +2948,7 @@
 			<Text>+3 [ICON_STRENGTH] Combat Strength to all naval units (Ferdinand Magellan).</Text>
 		</Replace>
 		<Replace Tag="LOC_GREATPERSON_FRANCIS_DRAKE_EXPANSION2_ACTIVE" Language="en_US">
-			<Text>Instantly creates a Privateer unit with 1 promotion level. Military units get +50% rewards for plundering sea [ICON_TradeRoute] Trade Routes. +25% [ICON_PRODUCTION] Production toward Naval Ranged and Naval Raider Units</Text>
+			<Text>Instantly creates a Privateer unit with 1 promotion level. Military units get +50% rewards for plundering sea [ICON_TRADEROUTE] Trade Routes. +25% [ICON_PRODUCTION] Production toward Naval Ranged and Naval Raider Units</Text>
 		</Replace>
 		
 		<!-- == Engineers == -->
@@ -3005,7 +3005,7 @@
 			<Text>Absorbs this City-state into your empire. Grants you +10 Loyalty per turn in the city. Can be an enemy City-state.</Text>
 		</Replace>
 		<Replace Tag="LOC_GREATPERSON_TRADE_ROUTE_TOURISM_MODIFIER" Language="en_US">
-			<Text>+{Amount}% [ICON_TOURISM] Tourism rate towards other civilizations you have a [ICON_TradeRoute] Trade Route to.</Text>
+			<Text>+{Amount}% [ICON_TOURISM] Tourism rate towards other civilizations you have a [ICON_TRADEROUTE] Trade Route to.</Text>
 		</Replace>
 		
 		<!-- == Scientists == -->
@@ -3025,25 +3025,25 @@
 
 		<!-- === ALLIANCES === -->
 		<Replace Tag="LOC_ALLIANCE_LV1_RESEARCH_EFFECT_2" Language="en_US">
-			<Text>+2 [ICON_SCIENCE] Science from [ICON_TradeRoute] Trade Routes from your ally</Text>
+			<Text>+2 [ICON_SCIENCE] Science from [ICON_TRADEROUTE] Trade Routes from your ally</Text>
 		</Replace>
 		<Replace Tag="LOC_ALLIANCE_LV1_CULTURAL_EFFECT_2" Language="en_US">
-			<Text>+2 [ICON_CULTURE] Culture from [ICON_TradeRoute] Trade Routes from your ally</Text>
+			<Text>+2 [ICON_CULTURE] Culture from [ICON_TRADEROUTE] Trade Routes from your ally</Text>
 		</Replace>
 		<Replace Tag="LOC_ALLIANCE_LV1_ECONOMIC_EFFECT_1" Language="en_US">
-			<Text>+6 [ICON_GOLD] Gold and +1 [ICON_PRODUCTION] Production from [ICON_TradeRoute] Trade Routes to your ally</Text>
+			<Text>+6 [ICON_GOLD] Gold and +1 [ICON_PRODUCTION] Production from [ICON_TRADEROUTE] Trade Routes to your ally</Text>
 		</Replace>
 		<Replace Tag="LOC_ALLIANCE_LV1_ECONOMIC_EFFECT_2" Language="en_US">
-			<Text>+6 [ICON_GOLD] Gold and +1 [ICON_PRODUCTION] Production from [ICON_TradeRoute] Trade Routes from your ally</Text>
+			<Text>+6 [ICON_GOLD] Gold and +1 [ICON_PRODUCTION] Production from [ICON_TRADEROUTE] Trade Routes from your ally</Text>
 		</Replace>
 		<Replace Tag="LOC_ALLIANCE_LV2_ECONOMIC_EFFECT_1" Language="en_US">
 			<Text>+1 [ICON_InfluencePerTurn] Influence Point per turn per City-state your ally is the Suzerain of</Text>
 		</Replace>
 		<Replace Tag="LOC_ALLIANCE_LV1_RELIGIOUS_EFFECT_1" Language="en_US">
-			<Text>+1 [ICON_FOOD] Food and +4 [ICON_FAITH] Faith from [ICON_TradeRoute] Trade Routes to your ally</Text>
+			<Text>+1 [ICON_FOOD] Food and +4 [ICON_FAITH] Faith from [ICON_TRADEROUTE] Trade Routes to your ally</Text>
 		</Replace>
 		<Replace Tag="LOC_ALLIANCE_LV1_RELIGIOUS_EFFECT_2" Language="en_US">
-			<Text>+1 [ICON_FOOD] Food and +4 [ICON_FAITH] Faith from [ICON_TradeRoute] Trade Routes from your ally</Text>
+			<Text>+1 [ICON_FOOD] Food and +4 [ICON_FAITH] Faith from [ICON_TRADEROUTE] Trade Routes from your ally</Text>
 		</Replace>
 		<Replace Tag="LOC_ALLIANCE_LV2_RELIGIOUS_EFFECT_1" Language="en_US">
 			<Text>+10 [ICON_RELIGION] Religious Combat Strength against non-ally Religions</Text>
@@ -3056,10 +3056,10 @@
 
 		<!-- === WORLD CONGRESS === -->
 		<Replace Tag="LOC_WORLD_CONGRESS_IMPROVE_TRADE_WTH_PLAYER_DESC" Language="en_US">
-			<Text>International [ICON_TradeRoute] Trade Routes sent to the chosen player provide +4 [ICON_GOLD] Gold to the sender. The chosen player receives +1 [ICON_TradeRoute] Trade Route capacity.</Text>
+			<Text>International [ICON_TRADEROUTE] Trade Routes sent to the chosen player provide +4 [ICON_GOLD] Gold to the sender. The chosen player receives +1 [ICON_TRADEROUTE] Trade Route capacity.</Text>
 		</Replace>
 		<Replace Tag="LOC_WORLD_CONGRESS_BAN_TRADE_WITH_PLAYER_DESC" Language="en_US">
-			<Text>International [ICON_TradeRoute] Trade Routes sent to the chosen player or from the chosen player provide -4 [ICON_GOLD] Gold (can be negative).</Text>
+			<Text>International [ICON_TRADEROUTE] Trade Routes sent to the chosen player or from the chosen player provide -4 [ICON_GOLD] Gold (can be negative).</Text>
 		</Replace>
 		<Replace Tag="LOC_WORLD_CONGRESS_EMPOWER_RELIGION_DESC" Language="en_US">
 			<Text>+10 [ICON_RELIGION] Religious Strength for all religious units of this [ICON_RELIGION] Religion.</Text>
@@ -3071,7 +3071,7 @@
 			<Text>The cost to produce or purchase military units using the chosen currency type is reduced by 25% until the next World Congress.</Text>
 		</Replace>
 		<Replace Tag="LOC_WORLD_CONGRESS_NO_CULTURE_BORDER_GROWTH_DESC" Language="en_US">
-			<Text>This player's borders will not grow via [ICON_Culture] Culture.</Text>
+			<Text>This player's borders will not grow via [ICON_CULTURE] Culture.</Text>
 		</Replace>
 		<Replace Tag="LOC_WORLD_CONGRESS_DISTRICTS_CULTURE_BOMB_DESC" Language="en_US">
 			<Text>Tiles bought by this player are 50% cheaper.</Text>
